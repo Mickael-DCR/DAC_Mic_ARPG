@@ -7,15 +7,14 @@
 #include "SpellAction.generated.h"
 
 /**
- *
+ * 
  */
 UCLASS(Blueprintable, EditInlineNew, Abstract)
-class CEL_LOU_ARPG_API USpellAction : public UObject
+class DAC_MIC_ARPG_API USpellAction : public UObject
 {
 	GENERATED_BODY()
-
+	
 public:
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 	void Launch(APlayerController* PlayerRef);
-
 };

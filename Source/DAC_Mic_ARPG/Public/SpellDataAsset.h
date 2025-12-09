@@ -8,15 +8,14 @@
 #include "SpellDataAsset.generated.h"
 
 /**
- *
+ * 
  */
 UCLASS(Blueprintable)
-class CEL_LOU_ARPG_API USpellDataAsset : public UPrimaryDataAsset
+class DAC_MIC_ARPG_API USpellDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
-
-public:
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced)
-	TArray<USpellAction*> Actions;
-
+	
+public :
+	UPROPERTY(BlueprintReadWrite, Instanced, EditAnywhere)
+	TArray<USpellAction*>Action;
 };

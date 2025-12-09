@@ -3,10 +3,3 @@
 
 #include "SpellDataAsset.h"
 
-SpellDataAsset::SpellDataAsset()
-{
-}
-
-SpellDataAsset::~SpellDataAsset()
-{
-}

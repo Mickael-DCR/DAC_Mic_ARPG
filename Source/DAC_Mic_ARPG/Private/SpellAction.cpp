@@ -3,10 +3,3 @@
 
 #include "SpellAction.h"
 
-SpellAction::SpellAction()
-{
-}
-
-SpellAction::~SpellAction()
-{
-}
